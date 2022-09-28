@@ -4,6 +4,8 @@
 ![Repository size](https://img.shields.io/github/repo-size/isadfrn/vanilla-portfolio?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/isadfrn/vanilla-portfolio?style=flat-square)
 
+![](./assets//images/demo.gif)
+
 ## About
 
 A portfolio template.
