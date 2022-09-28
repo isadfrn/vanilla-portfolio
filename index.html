@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;700&display=swap"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./assets/js/script.js" defer></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <title>Vanilla portfolio</title>
+  </head>
+  <body>
+    <div class="container">
+      <aside class="sidebar">
+        <header class="user card">
+          <img
+            src="https://github.com/isadfrn.png"
+            alt="A white girl using red shirt, with short blonde hair and using glasses "
+            class="user__image"
+          />
+          <h1 class="user__name">Isabella Nunes</h1>
+          <h2 class="user__header">Full-stack developer</h2>
+        </header>
+
+        <section class="info card">
+          <div class="info__icon">
+            <em data-feather="map-pin"></em>
+            <span>Brazil</span>
+          </div>
+          <div class="info__icon">
+            <em data-feather="briefcase"></em>
+            <span>Dell Technologies</span>
+          </div>
+          <div class="info__icon">
+            <em data-feather="github"></em>
+            <span>isadfrn</span>
+          </div>
+          <div class="info__icon">
+            <em data-feather="linkedin"></em>
+            <span>isadfrn</span>
+          </div>
+          <div class="info__icon">
+            <em data-feather="twitter"></em>
+            <span>isadfrn</span>
+          </div>
+          <div class="info__icon">
+            <em data-feather="globe"></em>
+            <span>https://isadfrn.dev</span>
+          </div>
+          <div class="info__icon">
+            <em data-feather="mail"></em>
+            <span>isadfrn@gmail.com</span>
+          </div>
+        </section>
+
+        <section class="tech card">
+          <h3 class="card__title">Technologies</h3>
+          <div class="tag__group">
+            <div class="tech__tag">JavaScript</div>
+            <div class="tech__tag">Git</div>
+            <div class="tech__tag">CSS</div>
+            <div class="tech__tag">HTML</div>
+            <div class="tech__tag">ReactJS</div>
+            <div class="tech__tag">GitHub</div>
+            <div class="tech__tag">Java</div>
+            <div class="tech__tag">Spring</div>
+            <div class="tech__tag">NodeJS</div>
+          </div>
+        </section>
+
+        <div class="card">
+          <h3 class="card__title">Experiência</h3>
+          <ul class="list">
+            <li class="item">
+              <span class="item__title">Job 1</span>
+              <span class="item__duration">2018 - 2020</span>
+              <span class="item__function">Experienced Software Engineer</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3 class="card__title">Educação</h3>
+          <ul class="list">
+            <li class="item">
+              <span class="item__title">School 1</span>
+              <span class="item__duration">2018 - 2020</span>
+              <span class="item__function">Experienced Software Engineer</span>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <main class="content">
+        <div class="projects">
+          <h3 class="card__title">My Projects</h3>
+          <div class="card__group">
+            <div class="project__card">
+              <div class="project__header">
+                <em data-feather="folder"></em>
+                <span>project-01</span>
+              </div>
+              <p class="project__description">Description</p>
+              <div class="project__footer">
+                <div class="project__git__info">
+                  <div class="project__icon">
+                    <em data-feather="star"></em>
+                    <span>project-01</span>
+                  </div>
+                  <div class="project__icon">
+                    <em data-feather="git-branch"></em>
+                    <span>project-01</span>
+                  </div>
+                </div>
+                <div class="project__tech javascript">
+                  <div class="circle"></div>
+                  <span>JavaScript</span>
+                </div>
+              </div>
+            </div>
+            <div class="project__card">
+              <div class="project__header">
+                <em data-feather="folder"></em>
+                <span>project-01</span>
+              </div>
+              <p class="project__description">Description</p>
+              <div class="project__footer">
+                <div class="project__git__info">
+                  <div class="project__icon">
+                    <em data-feather="star"></em>
+                    <span>project-01</span>
+                  </div>
+                  <div class="project__icon">
+                    <em data-feather="git-branch"></em>
+                    <span>project-01</span>
+                  </div>
+                </div>
+                <div class="project__tech javascript">
+                  <div class="circle"></div>
+                  <span>JavaScript</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="posts">
+          <h3 class="card__title">Recent Posts</h3>
+        </div>
+      </main>
+    </div>
+    <footer>
+      <span>Made with 💜 by <a href="https://github.com/isadfrn">@isadfrn</a></span>
+    </footer>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
