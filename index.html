@@ -7,10 +7,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;700&display=swap"
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <script src="./assets/js/script.js" defer></script>
     <script src="https://unpkg.com/feather-icons"></script>
     <title>Vanilla portfolio</title>
   </head>
@@ -20,7 +19,7 @@
         <header class="user card">
           <img
             src="https://github.com/isadfrn.png"
-            alt="A white girl using red shirt, with short blonde hair and using glasses "
+            alt="A white girl using red shirt, with short blonde hair and using glasses"
             class="user__image"
           />
           <h1 class="user__name">Isabella Nunes</h1>
@@ -74,10 +73,15 @@
         </section>
 
         <div class="card">
-          <h3 class="card__title">Experiência</h3>
+          <h3 class="card__title">Experience</h3>
           <ul class="list">
             <li class="item">
               <span class="item__title">Job 1</span>
+              <span class="item__duration">2018 - 2020</span>
+              <span class="item__function">Experienced Software Engineer</span>
+            </li>
+            <li class="item">
+              <span class="item__title">Job 2</span>
               <span class="item__duration">2018 - 2020</span>
               <span class="item__function">Experienced Software Engineer</span>
             </li>
@@ -85,12 +89,17 @@
         </div>
 
         <div class="card">
-          <h3 class="card__title">Educação</h3>
+          <h3 class="card__title">Education</h3>
           <ul class="list">
             <li class="item">
               <span class="item__title">School 1</span>
               <span class="item__duration">2018 - 2020</span>
-              <span class="item__function">Experienced Software Engineer</span>
+              <span class="item__function">College</span>
+            </li>
+            <li class="item">
+              <span class="item__title">School 2</span>
+              <span class="item__duration">2018 - 2020</span>
+              <span class="item__function">College</span>
             </li>
           </ul>
         </div>
@@ -98,50 +107,58 @@
 
       <main class="content">
         <div class="projects">
-          <h3 class="card__title">My Projects</h3>
+          <h3 class="card__title card">My Projects</h3>
           <div class="card__group">
-            <div class="project__card">
+            <div class="project__card card">
               <div class="project__header">
                 <em data-feather="folder"></em>
-                <span>project-01</span>
+                <span>project01</span>
               </div>
-              <p class="project__description">Description</p>
+              <p class="project__description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores corporis nisi sunt
+                dolore asperiores suscipit aperiam perspiciatis ex rerum, veritatis quia
+                exercitationem officia voluptatem iusto accusantium veniam fugiat ipsa porro!
+              </p>
               <div class="project__footer">
                 <div class="project__git__info">
                   <div class="project__icon">
                     <em data-feather="star"></em>
-                    <span>project-01</span>
+                    <span>100</span>
                   </div>
                   <div class="project__icon">
                     <em data-feather="git-branch"></em>
-                    <span>project-01</span>
+                    <span>100</span>
                   </div>
                 </div>
-                <div class="project__tech javascript">
-                  <div class="circle"></div>
+                <div class="project__tech">
+                  <div class="circle javascript"></div>
                   <span>JavaScript</span>
                 </div>
               </div>
             </div>
-            <div class="project__card">
+            <div class="project__card card">
               <div class="project__header">
                 <em data-feather="folder"></em>
-                <span>project-01</span>
+                <span>project01</span>
               </div>
-              <p class="project__description">Description</p>
+              <p class="project__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, quidem! Quis sapiente,
+                inventore cumque in quas odio, sunt quia eum, impedit sequi incidunt consequatur
+                minus totam reprehenderit tempore excepturi esse?
+              </p>
               <div class="project__footer">
                 <div class="project__git__info">
                   <div class="project__icon">
                     <em data-feather="star"></em>
-                    <span>project-01</span>
+                    <span>100</span>
                   </div>
                   <div class="project__icon">
                     <em data-feather="git-branch"></em>
-                    <span>project-01</span>
+                    <span>100</span>
                   </div>
                 </div>
-                <div class="project__tech javascript">
-                  <div class="circle"></div>
+                <div class="project__tech">
+                  <div class="circle javascript"></div>
                   <span>JavaScript</span>
                 </div>
               </div>
@@ -149,7 +166,51 @@
           </div>
         </div>
         <div class="posts">
-          <h3 class="card__title">Recent Posts</h3>
+          <h3 class="card__title card">Recent Posts</h3>
+          <div class="posts__group">
+            <div class="post card">
+              <img
+                src="https://images.assetsdelivery.com/compings_v2/dizanna/dizanna1910/dizanna191001011.jpg"
+                alt="A white girl using red shirt, with short blonde hair and using glasses"
+                class="post__image"
+              />
+              <div class="post__info">
+                <h4 class="post__title">Learn OOP</h4>
+                <span class="post__date">2 years later</span>
+                <p class="post__description">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque hic doloremque
+                  temporibus minima dolor rem quos commodi iure sit animi, enim earum beatae ipsam
+                  porro eaque voluptas tenetur perferendis cupiditate?
+                </p>
+                <div class="post__tags">
+                  <span class="post__tag">#java</span>
+                  <span class="post__tag">#oop</span>
+                  <span class="post__tag">#spring</span>
+                  <span class="post__tag">#.net</span>
+                </div>
+              </div>
+            </div>
+            <div class="post card">
+              <img
+                src="https://www.intel.com.br/content/dam/www/public/us/en/images/embedded/4x3/android_logo-blue-4x3.png.rendition.intel.web.864.486.png"
+                alt="A white girl using red shirt, with short blonde hair and using glasses"
+                class="post__image"
+              />
+              <div class="post__info">
+                <h4 class="post__title">Learn Android Development</h4>
+                <span class="post__date">1 year later</span>
+                <p class="post__description">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque hic doloremque
+                  temporibus minima dolor rem quos commodi iure sit animi, enim earum beatae ipsam
+                  porro eaque voluptas tenetur perferendis cupiditate?
+                </p>
+                <div class="post__tags">
+                  <span class="post__tag">#kotlin</span>
+                  <span class="post__tag">#java</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </main>
     </div>
