@@ -16,7 +16,7 @@ Install [Live Server extension](https://marketplace.visualstudio.com/items?itemN
 
 ### Status
 
-In progress 🚧
+Done ✅
 
 ## License
 
