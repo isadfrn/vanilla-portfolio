@@ -4,7 +4,7 @@
 ![Repository size](https://img.shields.io/github/repo-size/isadfrn/vanilla-portfolio?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/isadfrn/vanilla-portfolio?style=flat-square)
 
-![](./assets//images/demo.gif)
+![](./assets/img/demo.gif)
 
 ## About
 
@@ -16,7 +16,7 @@ Install [Live Server extension](https://marketplace.visualstudio.com/items?itemN
 
 ### Status
 
-Done ✅
+Finished 🛑
 
 ## License
 
